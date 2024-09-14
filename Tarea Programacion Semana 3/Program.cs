@@ -30,9 +30,9 @@ namespace Semana_3_Progra
             Console.WriteLine("Character Creation:");
             do
             {
-                Console.WriteLine("Choose your character´s health (1-200): ");
+                Console.WriteLine("Choose your character´s health (1-100): ");
                 health = int.Parse(Console.ReadLine());
-            } while (health < 1 || health > 200);
+            } while (health < 1 || health > 100);
 
             do
             {
